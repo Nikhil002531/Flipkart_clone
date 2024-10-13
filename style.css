@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-container{
+    height: 70px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.headerImage{
+    background-image: url(/images/flipkartlogo.jpeg);
+    height: 3rem;
+    width: 7rem;
+    background-size: cover;
+}
+
+.header-container input{
+    width: 25rem;
+    height: 2.75em;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(235, 246, 247);
+}
+
+.search-icon{
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(235, 246, 247);
+    padding-left: 10px;
+}
+
+
+.left-div{
+    height: 40px;
+    width: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.right-div{
+    height: 40px;
+    width: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.right-div a{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.right-div a img{
+    margin-right: 10px;
+
+}
+
+.main-div{
+    background-color: #eaeaea;
+}
+
+
+.section-1{
+    height: 7.5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fff;
+    margin: 30px 10px 10px 10px;
+    border-top: 10px solid #eaeaea;
+}
+
+.s1-i1{
+    height: 6rem;
+    width: 5rem;
+    font-size: 0.77rem;
+    font-weight: bold;
+}
+
+.s1-i1 img{
+    height: 65px;
+    width: 65px;
+    
+}
+
+.heroSection img{
+    width: 98.5%;
+    height:200px;
+    background-size:cover;
+    margin: 10px;
+}
+
+.mainSection1{
+    background-color: #fff;
+    height: 320px;
+    width: 98.5%;
+    margin: 10px;
+}
+
+.mainSection2{
+    background-color: #fff;
+    height: 320px;
+    width: 98.5%;
+    margin: 10px;
+}
+
+.mainSection3{
+    background-color: #fff;
+    height: 320px;
+    width: 98.5%;
+    margin: 10px;
+}
+
+.s1tag h3{
+    padding: 16px;
+    font-weight: bold;
+    color: #000;
+}
+
+.s1div{
+    height: 250px;
+    width: 220px;
+    background-color: #fff;
+    border: 1px solid rgb(190, 190, 190);
+    border-radius: 3px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.s1flex{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.s1div img{
+    height: 180px;
+    width: 210px;
+    background-size: cover;
+    padding: 5px;
+   
+    gap: 1;
+}
+
+.s1div a{
+    text-decoration: none;
+    color: #000;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    height: 350px;
+
+}
+
+.footerdivs{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 30px;
+    
+}
+
+.footerdivs li{
+    list-style: none;
+    text-align: left;
+}
+
+.footerdivs h6{
+    text-align: left;
+    margin-bottom: 10px;
+    color: #828282;
+}
+
+.footerdivs a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.fd1{
+    height: 200px;
+    width: 150px;
+}
+
+.fd2{
+    height: 200px;
+    width: 150px;
+}
+
+.fd3{
+    height: 200px;
+    width: 150px;
+}
+
+
+.fd4{
+    height: 200px;
+    width: 150px;
+}
+
+
+.fd5{
+    height: 200px;
+    width: 220px;
+    padding-left: 15px;
+    border-left: 1px solid gray;
+}
+
+
+.fd6{
+    height: 200px;
+    width: 220px;
+
+}
+
+.fd5 img{
+    height: 30px;
+    width: 30px;
+}
+
+.ficons{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100px;
+    height: 35px;
+}
+
+.footerdiv2{
+    height: 70px;
+    width: 100%;
+    margin-top: 40px;
+    border-top: 1px solid gray;
+    padding: 25px 0px 25px 0px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.f1div2 img{
+    height: 16px;
+    width: 16px;
+}
+
+.f1div2 a{
+    text-decoration: none;
+    color: #fff;
+}
